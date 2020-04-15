@@ -1,0 +1,12 @@
+import React from 'react'
+import {ListItem} from '../../style/shared'
+
+const AboutListItem = ({name, url}) => <ListItem>
+	{
+		url
+			? <a href={url} target="_blank" rel="noopener noreferrer">{name}</a>
+			: name
+	}
+</ListItem>
+
+export default AboutListItem

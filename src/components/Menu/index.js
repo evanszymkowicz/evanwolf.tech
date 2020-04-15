@@ -1,0 +1,29 @@
+import React from 'react'
+import EmailMe from '../EmailMe'
+import {Wrapper, Nav, NavItem, NavLink} from './style'
+
+const Menu = () => <Wrapper>
+	<Nav>
+		<NavItem>
+			<a href="https://github.com/evanszymkowicz" rel="noopener noreferrer" target="_blank">GitHub</a>
+		</NavItem>
+		<NavItem>
+			<a href="https://www.linkedin.com/in/evanszymkowicz/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+		</NavItem>
+		<NavItem highlight="highlight"><EmailMe text="Contact"/>
+		</NavItem>
+	</Nav>
+	<Nav>
+		<NavItem>
+			<NavLink to='/'>Home</NavLink>
+		</NavItem>
+		<NavItem>
+			<NavLink to='/featured'>Featured</NavLink>
+		</NavItem>
+		<NavItem>
+			<NavLink to='/about'>About</NavLink>
+		</NavItem>
+	</Nav>
+</Wrapper>
+
+export default Menu
