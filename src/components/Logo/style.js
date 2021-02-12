@@ -1,17 +1,17 @@
 import styled from 'styled-components'
-import {media, getOuterSpace} from '../../style/constants'
+import { media, getOuterSpace } from '../../style/constants'
 
-export const Wrapper = styled.div `
+export const Wrapper = styled.div`
   position: fixed;
   top: 0;
   left: 0;
   max-width: 18rem;
   ${getOuterSpace('padding')}
-  ${media.md `
+  ${media.md`
     position: static;
     padding: 0;
   `}
-
+  
   > div {
     position: relative;
   }
@@ -22,7 +22,7 @@ export const Wrapper = styled.div `
 
   a {
     width: 1.65rem;
-    ${media.lg `
+    ${media.lg`
       width: 1.45rem;
     `}
   }
