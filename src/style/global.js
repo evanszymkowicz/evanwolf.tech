@@ -1,6 +1,7 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
-import {colors, fonts, media} from './constants'
+
+import { colors, fonts, media } from './constants'
 
 export const GlobalStyle = createGlobalStyle `
   ${reset}
@@ -18,13 +19,13 @@ export const GlobalStyle = createGlobalStyle `
   html, body {
     height: 100%;
     font-size: 16px;
-    ${media.xl `
+    ${media.xl`
       font-size: 14px;
     `}
   }
 
   body {
-    background: ${colors.green900};
+    background: ${colors.darkGreen};
     color: #fff;
     font-family: ${fonts.sansSerif};
     backface-visibility: hidden;
@@ -39,7 +40,7 @@ export const GlobalStyle = createGlobalStyle `
     color: inherit;
     text-decoration: none;
     transition: color ease-in .2s;
-
+    
     &:hover {
       color: #fff;
     }

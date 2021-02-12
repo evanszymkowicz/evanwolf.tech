@@ -1,80 +1,83 @@
-import {css} from 'styled-components'
+import { css } from 'styled-components'
 
 export const colors = {
-	green900: '#013220',
-	gray500: '#94989E',
-	gray700: '#656a73',
-	yellow500: '#EBC86E',
-	yellow700: '#6b6349'
+  darkGreen: '#013220',
+  darkRed: '#5B222B',
+  darkBlue: '#384967',
+  darkYellow: '#fcb614',
+  silver: '#E4E6EC',
+  grey: '#646A74',
+  white:'#fff'
 }
 
 export const fonts = {
-	sansSerif: '\'Roboto\', stack-sans, sans-serif',
-	mono: '\'Roboto Mono\', stack-mono, monospace'
+  sansSerif: '\'Roboto\', stack-sans, sans-serif',
+  mono: '\'Roboto Mono\', stack-mono, monospace'
 }
 
 export const spaces = {
-	p500: '5rem',
-	p400: '4rem',
-	p300: '3rem',
-	p200: '2rem',
-	p100: '1rem',
-	p50: '.5rem',
-	p25: '.25rem'
+  p500: '5rem',
+  p400: '4rem',
+  p300: '3rem',
+  p200: '2rem',
+  p100: '1rem',
+  p50: '.5rem',
+  p25: '.25rem'
 }
 
 export const mq = {
-	xs: '22em',
-	sm: '40em',
-	md: '54em',
-	lg: '78em',
-	xl: '125em'
+  xs: '22em',
+  sm: '40em',
+  md: '54em',
+  lg: '78em',
+  xl: '125em'
 }
 
 export const media = {
-	xs: (...a) => css `
+  xs: (...a) => css`
     @media (max-width: ${mq.xs}) {
       ${css(...a)}
     }
   `,
-	sm: (...a) => css `
+  sm: (...a) => css`
     @media (max-width: ${mq.sm}) {
       ${css(...a)}
     }
   `,
-	md: (...a) => css `
+  md: (...a) => css`
     @media (max-width: ${mq.md}) {
       ${css(...a)}
     }
   `,
-	lg: (...a) => css `
+  lg: (...a) => css`
     @media (max-width: ${mq.lg}) {
       ${css(...a)}
     }
   `,
-	xl: (...a) => css `
+  xl: (...a) => css`
     @media (max-width: ${mq.xl}) {
       ${css(...a)}
     }
   `,
-	hover: (...a) => css `
+  hover: (...a) => css`
     @media not all and (hover: none) {
       ${css(...a)}
     }
   `
 }
 
-const rule = (d, v) => `${d}: ${v};`
+const rule = (d, v) => `${d}: ${v};` 
 
-export const getOuterSpace = p => css `
+export const getOuterSpace = p =>
+  css`
     ${rule(p, spaces.p500)}
-    ${media.lg `
+    ${media.lg`
       ${rule(p, spaces.p300)}
     `}
-    ${media.md `
+    ${media.md`
       ${rule(p, spaces.p300)}
     `}
-    ${media.sm `
+    ${media.sm`
       ${rule(p, spaces.p200)}
     `}
   `

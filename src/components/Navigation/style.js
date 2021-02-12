@@ -1,8 +1,8 @@
-import styled, {css} from 'styled-components'
-import {colors, media, getOuterSpace} from '../../style/constants'
+import styled, { css } from 'styled-components'
+import { colors, media, getOuterSpace } from '../../style/constants'
 
-export const Wrapper = styled.div `
-  ${media.md `
+export const Wrapper = styled.div`
+  ${media.md`
     position: fixed;
     bottom: 0;
     left: 0;
@@ -12,40 +12,40 @@ export const Wrapper = styled.div `
   `}
 `
 
-export const Shoable = styled.div `
-  ${media.md `
-    background: ${colors.green900};
+export const Shoable = styled.div`
+  ${media.md`
+    background: ${colors.darkGreen};
     overflow: hidden;
     transition: max-height .6s cubic-bezier(0.45, 0, .1, 1);
     will-change: max-height;
-    ${props => props.open
-	? css `
+    ${props => props.open 
+      ? css`
         max-height: 200px;
       `
-	: css `
+      : css`
         max-height: 0;
       `}
-
+    
     > div {
       padding: 0 3rem 3rem;
     }
   `}
 
-  ${media.sm `
+  ${media.sm`
     > div {
       padding: 0 2rem 2rem;
     }
   `}
 `
 
-export const Header = styled.header `
-  ${media.md `
+export const Header = styled.header`
+  ${media.md`
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
     min-height: 7rem;
-    background-image: ${colors.green900};
+    background-image: linear-gradient(to bottom,rgba(30,39,51,0.0) 0%,rgba(30,39,51,1) 50%);
     ${getOuterSpace('padding')};
   `}
 `

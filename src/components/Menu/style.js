@@ -1,8 +1,8 @@
 import Link from 'gatsby-link'
-import styled, {css} from 'styled-components'
-import {colors, fonts, media, getOuterSpace} from '../../style/constants'
+import styled, { css } from 'styled-components'
+import { colors, fonts, media, getOuterSpace } from '../../style/constants'
 
-export const Wrapper = styled.nav `
+export const Wrapper = styled.nav`
   position: fixed;
   bottom: 0;
   left: 0;
@@ -13,15 +13,15 @@ export const Wrapper = styled.nav `
   justify-content: space-between;
   pointer-events: none;
   ${getOuterSpace('padding')};
-
+  
   ul:last-child li {
     text-align: right;
-
+    
     a {
       transition: color .4s ease;
       will-change: color;
       position: relative;
-
+      
       &::before {
         position: absolute;
         left: -1.1rem;
@@ -43,7 +43,7 @@ export const Wrapper = styled.nav `
 
       &:hover {
         color: #fff;
-
+        
         &::before {
           transform: translate(0, -50%);
           opacity: 1;
@@ -51,14 +51,14 @@ export const Wrapper = styled.nav `
       }
     }
   }
-
-  ${media.md `
+  
+  ${media.md`
     position: static;
     padding: 0;
   `}
 `
 
-export const Nav = styled.ul `
+export const Nav = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
@@ -66,11 +66,11 @@ export const Nav = styled.ul `
   max-width: 14rem;
 `
 
-export const NavItem = styled.li `
+export const NavItem = styled.li`
   list-style: none;
   padding: .5rem 0;
   line-height: 1em;
-
+  
   &:last-child {
     padding-bottom: 0;
   }
@@ -81,24 +81,26 @@ export const NavItem = styled.li `
     pointer-events: all;
     transition: color .1s ease;
     line-height: 1em;
-    ${props => props.highlight
-	? css `
+    ${props => props.highlight 
+      ? css`
         color: ${colors.yellow500};
-
+        
         &:hover::before {
           display: none !important;
         }
       `
-	: css `
+      : css`
         color: ${colors.gray500};
       `}
   }
 `
 
-export const NavLink = styled(Link).attrs({activeClassName: 'active'})`
+export const NavLink = styled(Link).attrs({
+  activeClassName: 'active'
+})`
   &.active {
     color: #fff;
-
+    
     &::before {
       transform: translate(0, -50%);
       opacity: 1;
