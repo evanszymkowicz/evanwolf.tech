@@ -5,19 +5,22 @@ import ProfileContent from '../components/ProfileContent'
 
 const profileQuery = graphql`
   query ProfileQuery {
-    clients: allClientsJson {
+    jobs: allJobsJson {
       edges {
-        client: node {
-          name
+        job: node {
+          year,
+          title,
+          company
         }
       }
     }
-    events: allEventsJson {
+    projects: allProjectsJson {
       edges {
-        event: node {
-          year
-          position
-          company
+        project: node {
+          title,
+          year,
+          url,
+          
         }
       }
     }

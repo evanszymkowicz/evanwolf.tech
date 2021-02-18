@@ -19,7 +19,7 @@ const Menu = () =>
         <NavLink to='/'>Home</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='/works'>Featured</NavLink>
+        <NavLink to='/projects'>Featured</NavLink>
       </NavItem>
       <NavItem>
         <NavLink to='/profile'>Profile</NavLink>

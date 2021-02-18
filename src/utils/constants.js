@@ -12,7 +12,7 @@ export const META = {
     title: 'Evan Szymkowicz | About',
     description: 'My profile.'
   },
-  works: {
+  projects: {
     title: 'Evan Szymkowicz | Featured',
     description: 'Some of what I have been working on.'
   }

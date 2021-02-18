@@ -14,7 +14,7 @@ export const Wrapper = styled.section`
   `}
 `
 
-export const WorksTitle = styled.h1`
+export const ProjectsTitle = styled.h1`
   font-size: 1.6rem;
 `
 

@@ -1,17 +1,15 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
-import WorksContent from '../components/WorksContent'
+import ProjectsContent from '../components/ProjectsContent'
 
-const worksQuery = graphql`
-  query WorksQuery {
-    works: allWorksJson {
+const projectsQuery = graphql`
+  query ProjectsQuery {
+    projects: allProjectsJson {
       edges {
-        work: node {
+        project: node {
           title,
           category,
-          collaborators,
-          client,
           year,
           url,
           featured,
@@ -31,7 +29,7 @@ const worksQuery = graphql`
 export default ({ location }) =>
   <Layout location={location}>
     <StaticQuery
-      query={worksQuery}
-      render={data => <WorksContent data={data} />}
+      query={projectsQuery}
+      render={data => <ProjectsContent data={data} />}
     />
   </Layout>

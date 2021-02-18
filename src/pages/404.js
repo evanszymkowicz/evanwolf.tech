@@ -52,7 +52,7 @@ export default ({ location }) =>
     <Wrapper>
       <header>
         <Title>Sorry</Title>
-        <Subtitle>This page cannot be found</Subtitle>
+        <Subtitle>You have reached a dead end</Subtitle>
         <BackToHome to='/'>Return to the homepage</BackToHome>
       </header>
     </Wrapper>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { Wrapper, WorkFeatured, StyledCarousel, StyledImage } from './style'
+import { Wrapper, ProjectFeatured, StyledCarousel, StyledImage } from './style'
 import { Loader } from '../../style/shared'
 
-class WorksFeaturedSection extends Component {
+class ProjectFeaturedSection extends Component {
   constructor() {
     super()
     this.state =  { widthLoaded: false, isMobile: false }
@@ -32,24 +32,24 @@ class WorksFeaturedSection extends Component {
     }, () => this.setWidthLoaded())
   }
 
-  renderWorksList({ work }) {
-    const { title, image, url } = work
+  renderProjectsList({ project }) {
+    const { title, image, url } = project
     return (
-      <WorkFeatured key={title}>
+      <ProjectFeatured key={title}>
         <StyledImage 
           alt={title} 
           loader={({ isLoaded }) => <Loader isLoaded={isLoaded} />}
           {...image} 
         />
         {url && <a href={url} target="_blank" rel="noopener noreferrer">More Info</a>}
-      </WorkFeatured>
+      </ProjectFeatured>
     )
   }
 
-  renderWorksWrapper() {
-    const { works } = this.props
+  renderProjectssWrapper() {
+    const { projects } = this.props
     const { isMobile } = this.state
-    const worksList = works.map(this.renderWorksList)
+    const projectsList = projects.map(this.renderProjectsList)
     return (
       isMobile 
       ? <StyledCarousel 
@@ -59,16 +59,16 @@ class WorksFeaturedSection extends Component {
           interval={10000}
           autoPlay
         >
-          {worksList}
+          {projectsList}
         </StyledCarousel>
-      : <Wrapper>{worksList}</Wrapper>
+      : <Wrapper>{projectsList}</Wrapper>
     )
   }
 
   render() {
     const { widthLoaded } = this.state
-    return widthLoaded && this.renderWorksWrapper()
+    return widthLoaded && this.renderProjectsWrapper()
   }
 }
 
-export default WorksFeaturedSection
+export default ProjectsFeaturedSection
