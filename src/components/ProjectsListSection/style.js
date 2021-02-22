@@ -14,7 +14,7 @@ export const Wrapper = styled.section`
   `}
 `
 
-export const WorksTitle = styled.h1`
+export const ProjectsTitle = styled.h1`
   font-size: 1.6rem;
 `
 
@@ -36,7 +36,7 @@ export const FilterButton = styled.button`
     content: '-';
     display: inline-block;
     margin: 0 .5rem;
-    color: ${colors.gray500};
+    color: ${colors.grey};
   }
 
   &:focus {
@@ -45,10 +45,10 @@ export const FilterButton = styled.button`
 
   ${props => props.active 
     ? css`
-      color: ${colors.yellow500};
+      color: ${colors.darkYellow};
     `
     : css`
-      color: ${colors.gray500};
+      color: ${colors.grey};
     `}
 `
 
@@ -69,14 +69,14 @@ export const StyledDivider = styled(Divider)`
 `
 
 export const StyledEmailMe = styled(EmailMe)`
-  color: ${colors.yellow500};
+  color: ${colors.darkYellow};
   font-family: ${fonts.mono};
   font-size: .9rem;
-  border-bottom: 1px dotted ${colors.yellow500};
+  border-bottom: 1px dotted ${colors.darkYellow};
   padding: 0 0 .1rem;
   display: inline-block;
   
   &:hover {
-    color: ${colors.yellow500};
+    color: ${colors.darkYellow};
   }
 `

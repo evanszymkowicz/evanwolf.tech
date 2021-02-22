@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel'
 import Image from '../Image'
 import { media } from '../../style/constants'
 
-export const WorkFeatured = styled.article`
+export const ProjectFeatured = styled.article`
   border-radius: 2px;
   overflow: hidden;
   position: relative;

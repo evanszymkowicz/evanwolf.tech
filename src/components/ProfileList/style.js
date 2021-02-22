@@ -11,7 +11,7 @@ export const ListTitle = styled.h2`
     content: '';
     width: 1rem;
     height: 1px;
-    background: ${colors.yellow500};
+    background: ${colors.darkYellow};
     display: inline-block;
     vertical-align: middle;
     margin-left: 1rem;

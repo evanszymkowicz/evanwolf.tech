@@ -42,20 +42,20 @@ export const Wrapper = styled.article`
   `}
 `
 
-export const WorkTitle = styled.h3`
+export const ProjectTitle = styled.h3`
   font-size: 1.1rem;
   color: #fff;
   font-weight: 400;
 `
 
-export const WorkInfos = styled.div`
+export const ProjectInfos = styled.div`
   margin-top: .5rem;
   font-family: ${fonts.mono};
   font-size: .9rem;
-  color: ${colors.gray500};
+  color: ${colors.grey};
 `
 
-export const WorkYear = styled.span`
+export const ProjectYear = styled.span`
   color: #fff;
 
   &::before {
@@ -64,7 +64,7 @@ export const WorkYear = styled.span`
     vertical-align: middle;
     height: 1px;
     width: 1rem;
-    background: ${colors.yellow500};
+    background: ${colors.darkYellow};
     margin-right: .5rem;
   }
 `

@@ -24,7 +24,7 @@ export const ContentWrapper = styled.div`
 
 export const ListItem = styled.li`
   font-size: 1rem;
-  color: ${colors.gray500};
+  color: ${colors.grey};
   padding: .3rem 0;
   line-height: 1.6em;
 `

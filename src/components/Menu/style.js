@@ -26,7 +26,7 @@ export const Wrapper = styled.nav`
         position: absolute;
         left: -1.1rem;
         top: 50%;
-        background: ${colors.yellow500};
+        background: ${colors.darkYellow};
         border-radius: 100%;
         content: '';
         display: block;
@@ -83,14 +83,14 @@ export const NavItem = styled.li`
     line-height: 1em;
     ${props => props.highlight 
       ? css`
-        color: ${colors.yellow500};
+        color: ${colors.darkYellow};
         
         &:hover::before {
           display: none !important;
         }
       `
       : css`
-        color: ${colors.gray500};
+        color: ${colors.grey};
       `}
   }
 `
