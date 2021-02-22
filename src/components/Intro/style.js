@@ -37,7 +37,7 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h1`
   span {
-    color: ${colors.yellow500};
+    color: ${colors.darkYellow};
     text-decoration: line-through;
   }
 `

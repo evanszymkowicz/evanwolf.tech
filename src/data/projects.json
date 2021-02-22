@@ -23,14 +23,6 @@
     }]
   }
 },
-{
-  "title": "The Boss",
-  "category": ["code", "website"],
-  "client": "",
-  "year": "2020",
-  "featured": false,
-  "url": "https://brave-morse-2885af.netlify.app/"
-},
   {
     "title": "Cava Marketing Email",
     "category": ["email"],
@@ -85,24 +77,32 @@
     "client": "Washington Design Center",
     "year": "2019",
     "featured": true,
-    "url": "https://dc-design.netlify.com",
+    "url": "https://designcenter.netlify.com",
     "image": {
-      "src": "/images/projects/WashingtonDesignCenter/dc-design.png",
+      "src": "/images/projects/WashingtonDesignCenter/designcenter.png",
       "sources": [{
         "media": "max-width: 40rem",
         "srcset": [
-          "/images/projects/WashingtonDesignCenter/dc-design.png",
-          "/images/projects/WashingtonDesignCenter/dc-design.png",
-          "/images/projects/WashingtonDesignCenter/dc-design.png"
+          "/images/projects/WashingtonDesignCenter/designcenter.png",
+          "/images/projects/WashingtonDesignCenter/designcenter.png",
+          "/images/projects/WashingtonDesignCenter/designcenter.png"
         ]
       }, {
         "srcset": [
-          "/images/projects/WashingtonDesignCenter/dc-design.png",
-          "/images/projects/WashingtonDesignCenter/dc-design.png",
-          "/images/projects/WashingtonDesignCenter/dc-design.png"
+          "/images/projects/WashingtonDesignCenter/designcenter.png",
+          "/images/projects/WashingtonDesignCenter/designcenter.png",
+          "/images/projects/WashingtonDesignCenter/designcenter.png"
         ]
       }]
     }
+  },
+  {
+    "title": "The Boss",
+    "category": ["code", "website"],
+    "client": "",
+    "year": "2020",
+    "featured": false,
+    "url": "https://brave-morse-2885af.netlify.app/"
   },
   {
     "title": "Washington Burger",

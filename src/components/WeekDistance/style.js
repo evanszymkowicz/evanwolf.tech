@@ -14,7 +14,7 @@ export const loading = keyframes`
 export const DistanceWrapper = styled.div`
   font-family: ${fonts.mono};
   font-size: .9rem;
-  color: ${colors.gray500};
+  color: ${colors.grey};
 `
 
 export const DistanceLoader = styled.div`
@@ -40,7 +40,7 @@ export const EmojiWrapper = styled.span`
 `
 
 export const Kilometers = styled.a`
-  border-bottom: 1px dotted ${colors.gray500};
+  border-bottom: 1px dotted ${colors.grey};
   display: inline-block;
   vertical-align: top;
   color: #fff;

@@ -14,11 +14,11 @@ const Subtitle = styled.h1`
   text-align: center;
   font-size: 1.1rem;
   font-family: ${fonts.mono};
-  color: ${colors.gray500};
+  color: ${colors.grey};
   margin: 1rem 0;
   
   span {
-    color: ${colors.yellow500};
+    color: ${colors.darkYellow};
   }
 `
 
@@ -35,15 +35,15 @@ const Wrapper = styled.section`
 `
 
 const BackToHome = styled(Link)`
-  color: ${colors.yellow500};
+  color: ${colors.darkYellow};
   font-family: ${fonts.mono};
   font-size: .9rem;
-  border-bottom: 1px dotted ${colors.yellow500};
+  border-bottom: 1px dotted ${colors.darkYellow};
   padding: 0 0 .1rem;
   display: inline-block;
   
   &:hover {
-    color: ${colors.yellow500};
+    color: ${colors.darkYellow};
   }
 `
 

@@ -56,7 +56,7 @@ export const GlobalStyle = createGlobalStyle `
   }
 
   ::selection {
-    color: ${colors.yellow500};
+    color: ${colors.darkYellow};
     background: transparent;
   }
 `;

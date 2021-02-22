@@ -3,7 +3,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Wrapper, ProjectFeatured, StyledCarousel, StyledImage } from './style'
 import { Loader } from '../../style/shared'
 
-class ProjectFeaturedSection extends Component {
+class ProjectsFeaturedSection extends Component {
   constructor() {
     super()
     this.state =  { widthLoaded: false, isMobile: false }
@@ -46,7 +46,7 @@ class ProjectFeaturedSection extends Component {
     )
   }
 
-  renderProjectssWrapper() {
+  renderProjectsWrapper() {
     const { projects } = this.props
     const { isMobile } = this.state
     const projectsList = projects.map(this.renderProjectsList)

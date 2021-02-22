@@ -52,7 +52,7 @@ export const ProjectInfos = styled.div`
   margin-top: .5rem;
   font-family: ${fonts.mono};
   font-size: .9rem;
-  color: ${colors.gray500};
+  color: ${colors.grey};
 `
 
 export const ProjectYear = styled.span`
@@ -64,7 +64,7 @@ export const ProjectYear = styled.span`
     vertical-align: middle;
     height: 1px;
     width: 1rem;
-    background: ${colors.yellow500};
+    background: ${colors.darkYellow};
     margin-right: .5rem;
   }
 `
