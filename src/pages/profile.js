@@ -8,9 +8,9 @@ const profileQuery = graphql`
     jobs: allJobsJson {
       edges {
         job: node {
-          year,
-          title,
-          company
+          company,
+          position,
+          year
         }
       }
     }
@@ -19,8 +19,7 @@ const profileQuery = graphql`
         project: node {
           title,
           year,
-          url,
-          
+          url
         }
       }
     }
