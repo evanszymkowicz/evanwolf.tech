@@ -25,7 +25,7 @@
 },
   {
     "title": "Cava Marketing Email",
-    "category": ["email"],
+    "category": ["marketing"],
     "client": "",
     "year": "2019",
     "featured": true,
@@ -121,9 +121,9 @@
     "featured": false
   },{
     "title": "Watch ESPN+",
-    "category": ["email"],
+    "category": ["marketing"],
     "client": "",
-    "url":"https://ews-watch-espnplus-emails.herokuapp.com/",
+    "url":"https://ews-watch-espnplus-marketings.herokuapp.com/",
     "year": "2019",
     "featured": false
   }, {
@@ -143,9 +143,9 @@
   },
   {
     "title": "Heroku Newsletter",
-    "category": ["email"],
+    "category": ["marketing"],
     "client": "",
-    "url": "https://ews-heroku-email.herokuapp.com",
+    "url": "https://ews-heroku-marketing.herokuapp.com",
     "year": "2018",
     "featured": false
   },{

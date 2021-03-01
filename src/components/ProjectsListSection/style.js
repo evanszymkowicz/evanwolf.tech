@@ -16,6 +16,7 @@ export const Wrapper = styled.section`
 
 export const ProjectsTitle = styled.h1`
   font-size: 1.6rem;
+  color: ${colors.darkYellow}
 `
 
 export const ButtonsWrapper = styled.div`
@@ -23,6 +24,7 @@ export const ButtonsWrapper = styled.div`
 `
 
 export const FilterButton = styled.button`
+  color: ${colors.rookwoodAmber};
   border: 0;
   background: 0;
   padding: 0;
