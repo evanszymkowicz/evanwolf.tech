@@ -5,7 +5,7 @@ import { Wrapper, Item } from './style'
 const Footer = () =>
   <Wrapper>
     <Item position='left'>
-      Evan Szymkowicz {getCurrentYear()}
+      Evan Szymkowicz <a></a>{getCurrentYear()}
     </Item>
   </Wrapper>
 

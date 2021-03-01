@@ -13,6 +13,7 @@ const ProjectsListSection = ({
       <ButtonsWrapper>
         <FilterButton active={category === 'website'} onClick={() => setCategory('website')}>website</FilterButton>
         <FilterButton active={category === 'code'} onClick={() => setCategory('code')}>code</FilterButton>
+        <FilterButton active={category === 'code'} onClick={() => setCategory('marketing')}>marketing</FilterButton>
         {category && <FilterButton onClick={() => setCategory(null)}>all</FilterButton>}
       </ButtonsWrapper>
     </header>

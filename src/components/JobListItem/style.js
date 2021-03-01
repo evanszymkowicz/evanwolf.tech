@@ -3,6 +3,7 @@ import { colors } from '../../style/constants'
 
 export const Position = styled.span`
   border-bottom: 1px dotted ${colors.darkRed};
+  color: ${colors.silver};
 `
 
 export const Wrapper = styled.div`
@@ -25,7 +26,7 @@ export const Wrapper = styled.div`
     left: 0;
     bottom: 0;
     transform: translateY(100%);
-    color: #fff;
+    color: ${colors.silver};
   }
 
   &:hover {

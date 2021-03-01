@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import WeekDistance from '../WeekDistance'
 import Image from '../Image'
 import { colors, media } from '../../style/constants'
 
@@ -40,11 +39,11 @@ export const StyledImage = styled(Image)`
     bottom: -100%;
     left: -100%;
     mix-blend-mode: lighten;
-    opacity: .1;
+    opacity: .5;
     display: block;
     object-fit: cover;
     ${media.sm`
-      opacity: .2;
+      opacity: .5;
     `}
   }
 
@@ -55,14 +54,6 @@ export const StyledImage = styled(Image)`
     }
   `}
 `
-
-export const StyledWeekDistance = styled(WeekDistance)`
-  grid-row: 4 / last-line;
-  grid-column: 1 / span 4;
-  align-self: end;
-  z-index: 3;
-`
-
 export const InfoWrapper = styled.header`
   grid-row: 2 / 4;
   grid-column: 1 / 6;

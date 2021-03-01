@@ -16,6 +16,7 @@ export const Wrapper = styled.section`
 
 export const ProjectsTitle = styled.h1`
   font-size: 1.6rem;
+  color: ${colors.darkYellow}
 `
 
 export const ButtonsWrapper = styled.div`
@@ -23,6 +24,7 @@ export const ButtonsWrapper = styled.div`
 `
 
 export const FilterButton = styled.button`
+  color: ${colors.rookwoodAmber};
   border: 0;
   background: 0;
   padding: 0;
@@ -58,7 +60,7 @@ export const NDAWrapper = styled.footer`
   
   h2 {
     font-size: 1.1rem;
-    color: #fff;
+    color: #E4E6EC;
     margin-bottom: .75rem;
     line-height: 1.4em;
   }
@@ -72,7 +74,7 @@ export const StyledEmailMe = styled(EmailMe)`
   color: ${colors.darkYellow};
   font-family: ${fonts.mono};
   font-size: .9rem;
-  border-bottom: 1px dotted ${colors.darkYellow};
+  border-bottom: 1px dotted ${colors.darkRed};
   padding: 0 0 .1rem;
   display: inline-block;
   
