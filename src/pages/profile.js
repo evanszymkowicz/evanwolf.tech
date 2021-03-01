@@ -14,11 +14,10 @@ const profileQuery = graphql`
         }
       }
     }
-    projects: allProjectsJson {
+    skills: allSkillsJson {
       edges {
-        project: node {
-          title,
-          year,
+        skill: node {
+          name,
           url
         }
       }
