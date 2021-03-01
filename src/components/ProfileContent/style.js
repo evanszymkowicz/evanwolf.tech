@@ -17,7 +17,7 @@ export const ListsSection = styled.section`
   `}
 `
 
-export const ClientsList = styled(ProfileList)`
+export const SkillsList= styled(ProfileList)`
   ul {
     display: grid;
     grid-template-columns: max-content max-content max-content;
