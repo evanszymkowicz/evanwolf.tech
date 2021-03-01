@@ -38,7 +38,7 @@ const BackToHome = styled(Link)`
   color: ${colors.darkYellow};
   font-family: ${fonts.mono};
   font-size: .9rem;
-  border-bottom: 1px dotted ${colors.darkYellow};
+  border-bottom: 1px dotted ${colors.darkRed};
   padding: 0 0 .1rem;
   display: inline-block;
   

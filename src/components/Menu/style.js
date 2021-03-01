@@ -42,7 +42,7 @@ export const Wrapper = styled.nav`
       }
 
       &:hover {
-        color: #fff;
+        color: #E4E6EC;
         
         &::before {
           transform: translate(0, -50%);
@@ -99,7 +99,7 @@ export const NavLink = styled(Link).attrs({
   activeClassName: 'active'
 })`
   &.active {
-    color: #fff;
+    color: #E4E6EC;
     
     &::before {
       transform: translate(0, -50%);

@@ -2,9 +2,11 @@ import { css } from 'styled-components'
 
 export const colors = {
   darkGreen: '#013220',
-  darkRed: '#5B222B',
+  darkRed: '#8E595A',
   darkBlue: '#384967',
   darkYellow: '#fcb614',
+  rookwoodAmber: '#BD8145',
+  sturdyBrown: '#6B4C33',
   silver: '#E4E6EC',
   grey: '#646A74',
   white:'#fff'

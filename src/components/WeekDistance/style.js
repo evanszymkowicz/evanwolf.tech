@@ -43,5 +43,5 @@ export const Kilometers = styled.a`
   border-bottom: 1px dotted ${colors.grey};
   display: inline-block;
   vertical-align: top;
-  color: #fff;
+  color: #E4E6EC;
 `

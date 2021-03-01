@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { media } from '../../style/constants'
+import { media, colors } from '../../style/constants'
 
 export const Wrapper = styled.div`
   display: none;
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
   span {
     display: inline-block;
     height: 1px;
-    background: #fff;
+    background: ${colors.silver};
   }
 
   ${props => props.open 

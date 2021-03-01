@@ -14,7 +14,7 @@ export const Wrapper = styled.footer`
 export const Item = styled.div`
   position: absolute;
   font-family: ${fonts.mono};
-  color: ${colors.grey};
+  color: ${colors.silver};
   font-size: .85rem;
   line-height: 1em;
   ${props => props.position === 'left' 

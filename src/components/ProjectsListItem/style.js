@@ -36,6 +36,7 @@ export const Wrapper = styled.article`
       &:hover {
         > header {
           transform: translateX(-.75rem);
+          color: ${colors.sturdyBrown};
         }
       }
     `}
@@ -44,7 +45,7 @@ export const Wrapper = styled.article`
 
 export const ProjectTitle = styled.h3`
   font-size: 1.1rem;
-  color: #fff;
+  color: ${colors.silver};
   font-weight: 400;
 `
 
@@ -56,7 +57,7 @@ export const ProjectInfos = styled.div`
 `
 
 export const ProjectYear = styled.span`
-  color: #fff;
+  color: ${colors.silver};
 
   &::before {
     content: '';
@@ -64,7 +65,7 @@ export const ProjectYear = styled.span`
     vertical-align: middle;
     height: 1px;
     width: 1rem;
-    background: ${colors.darkYellow};
+    background: ${colors.darkRed};
     margin-right: .5rem;
   }
 `

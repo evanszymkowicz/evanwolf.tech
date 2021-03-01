@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle `
 
   body {
     background: ${colors.darkGreen};
-    color: #fff;
+    color: #E4E6EC;
     font-family: ${fonts.sansSerif};
     backface-visibility: hidden;
   }
@@ -42,7 +42,7 @@ export const GlobalStyle = createGlobalStyle `
     transition: color ease-in .2s;
     
     &:hover {
-      color: #fff;
+      color: #E4E6EC;
     }
   }
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Carousel } from 'react-responsive-carousel'
 import Image from '../Image'
-import { media } from '../../style/constants'
+import { media, colors } from '../../style/constants'
 
 export const ProjectFeatured = styled.article`
   border-radius: 2px;
@@ -44,7 +44,7 @@ export const ProjectFeatured = styled.article`
 export const StyledImage = styled(Image)`
   display: block;
   position: relative;
-  background: #242e3a;
+  background: ${colors.sturdyBrown};
   
   &::before {
     content: '';

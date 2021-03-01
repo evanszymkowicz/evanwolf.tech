@@ -58,7 +58,7 @@ export const NDAWrapper = styled.footer`
   
   h2 {
     font-size: 1.1rem;
-    color: #fff;
+    color: #E4E6EC;
     margin-bottom: .75rem;
     line-height: 1.4em;
   }
@@ -72,7 +72,7 @@ export const StyledEmailMe = styled(EmailMe)`
   color: ${colors.darkYellow};
   font-family: ${fonts.mono};
   font-size: .9rem;
-  border-bottom: 1px dotted ${colors.darkYellow};
+  border-bottom: 1px dotted ${colors.darkRed};
   padding: 0 0 .1rem;
   display: inline-block;
   
