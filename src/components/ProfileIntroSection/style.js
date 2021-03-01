@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import WeekDistance from '../WeekDistance'
 import Image from '../Image'
 import { colors, media } from '../../style/constants'
 

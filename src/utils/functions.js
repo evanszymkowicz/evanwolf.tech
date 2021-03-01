@@ -1,4 +1,4 @@
-import { LAMBDA_ENDPOINT, IS_PROD } from './constants'
+import { IS_PROD } from './constants'
 
 const getRandomNumber = (min, max) => Math.trunc(Math.random() * (max - min) + min)
 
