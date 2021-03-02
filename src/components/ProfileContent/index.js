@@ -20,7 +20,7 @@ export default ({ data }) => {
         <ProfileIntroSection 
           content={() => (
             <>            
-              <p>I focus on building, fixing and implementing websites.{' '}</p>
+              <p>I focus on building, launching and fixing websites.{' '}</p>
               <p>Yes, I am currently looking for new work.{' '}</p>
               <p> <a href="https://github.com/evanszymkowicz" target="_blank" rel="noopener noreferrer">See what I am working on</a> <a href = "https://evan.szymkowicz@evanwolf.tech" target = "_blank" rel = "noopener noreferrer" > or contact me to learn more</a>.
             </p>

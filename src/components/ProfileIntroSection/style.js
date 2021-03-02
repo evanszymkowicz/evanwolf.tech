@@ -81,7 +81,7 @@ export const Content = styled.main`
 
   a {
     color: #fff;
-    border-bottom: 1px dotted ${colors.grey};
+    border-bottom: 1px dotted ${colors.darkRed};
     
     &:hover {
       border-bottom-color: ${colors.darkYellow};

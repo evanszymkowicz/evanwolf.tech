@@ -42,7 +42,7 @@ export const GlobalStyle = createGlobalStyle `
     transition: color ease-in .2s;
     
     &:hover {
-      color: #E4E6EC;
+      color: ${colors.silver};
     }
   }
 
