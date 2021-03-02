@@ -9,6 +9,7 @@ export const ListsSection = styled.section`
   grid-column-gap: 3rem;
   grid-row-gap: 5rem;
   padding: 8rem 0 0;
+  
   ${media.sm`
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;

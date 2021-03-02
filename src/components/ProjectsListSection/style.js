@@ -67,6 +67,7 @@ export const NDAWrapper = styled.footer`
 `
 
 export const StyledDivider = styled(Divider)`
+  color: ${colors.darkRed};
   margin-bottom: 3rem;
 `
 

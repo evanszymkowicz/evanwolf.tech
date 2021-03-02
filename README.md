@@ -1,14 +1,12 @@
 # www.evanwolf.tech
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5e7e7b2b-c3bc-4ec0-a6a6-fa6cc8f8a2fc/deploy-status)](https://app.netlify.com/sites/ecstatic-wescoff-3dbdc5/deploys)
-
 ## v5.0.x 2021
 
 ![New Paint Job](static/images/readme/boba_fett.jpg)
 
 What's new: </br>
 More linting and prettier rules</br>
-New image loading</br>
+Better image loading</br>
 
 ## v4 2020
 
