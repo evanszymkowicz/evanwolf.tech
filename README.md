@@ -1,12 +1,24 @@
 # www.evanwolf.tech
 
 ## v5.0.x 2021
-
-![New Paint Job](static/images/readme/boba_fett.jpg)
-
 What's new: </br>
 More linting and prettier rules</br>
-Better image loading</br>
+Better image loading on desktop and mobile</br>
+More color 
+
+<p float="left">
+  <img src="static/images/readme/boba_fett.jpg" width="50" />
+  <img src="static/images/readme/2021_1.png" width="50"/> 
+  <img src="static/images/readme/2021_2.png" width="50"/>
+  <img src="static/images/readme/2021_3.png" width="50"/>
+</p>
+
+<p float="left">
+  <img src="static/images/readme/2021_mobile_1.png" width="50" />
+  <img src="static/images/readme/2021_mobile_2.png" width="50"/> 
+  <img src="static/images/readme/2021_mobile_3.png" width="50"/>
+  <img src="static/images/readme/2021_mobile_4.png" width="50"/>
+</p>
 
 ## v4 2020
 
