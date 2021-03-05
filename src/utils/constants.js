@@ -4,8 +4,8 @@ export const META = {
     image: '/images/profile/evan-szymkowicz.jpeg',
   },
   index: {
-    title: 'Evan Szymkowicz | Software Engineer',
-    description: 'I primarily focus on front end website development.'
+    title: 'Evan Szymkowicz | Software Developer',
+    description: 'I primarily focus on website development.'
   },
   profile: {
     title: 'Evan Szymkowicz | About',

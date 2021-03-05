@@ -11,7 +11,7 @@ const ProfileIntroSection = ({ content }) =>
     </InfoWrapper>
     <StyledImage 
       src="/images/profile/evan-szymkowicz.jpeg"
-      alt="Evan Szymkowicz - Software Engineer"
+      alt="Evan Szymkowicz - Software Developer"
       loader={({ isLoaded }) => <Loader isLoaded={isLoaded} />}
       sources={[{
         media: 'max-width: 40rem',

@@ -5,8 +5,8 @@ const Intro = props =>
   <Wrapper {...props} >
     <Title>
      Evan Szymkowicz
-    <span> Front End Engineer </span>
-      Washington, D.C.
+    <span> Software Developer </span>
+      In Washington, D.C.
     </Title>
   </Wrapper>
 
