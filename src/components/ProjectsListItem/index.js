@@ -9,13 +9,13 @@ const ProjectsListItem = props =>  {
       <header>
         <ProjectTitle>{title}</ProjectTitle>
         <ProjectInfos>
-          <span>{url}</span>
+         
         </ProjectInfos>
       </header>
       <ProjectInfos>
         <ProjectYear>{year}</ProjectYear>
       </ProjectInfos>
-      {url && <a href={url} target="_blank" rel="noopener noreferrer">More</a>}
+      {url && <a href={url} target="_blank" rel="noopener noreferrer">More Information</a>}
     </Wrapper>
   )
 }

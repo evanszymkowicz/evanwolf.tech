@@ -11,6 +11,7 @@ const projectsQuery = graphql`
           title,
           category,
           year,
+          url,
           featured,
           image {
             src

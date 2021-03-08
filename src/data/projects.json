@@ -1,7 +1,6 @@
 [{
   "title": "Sparks Group",
   "category": ["website", "code"],
-  "client": "",
   "year": "2020",
   "featured": true,
   "url": "https://sparks-by-evan.netlify.app",
@@ -50,7 +49,7 @@
   }, {
     "title": "Interactive Strategies",
     "category": ["website", "code"],
-    "client": "Interactive Strategies",
+
     "year": "2019",
     "url": "https://interactive-strategies.netlify.app/",
     "featured": true,
@@ -74,7 +73,7 @@
   }, {
     "title": "Washington Design Center",
     "category": ["website", "code"],
-    "client": "Washington Design Center",
+
     "year": "2019",
     "featured": true,
     "url": "https://designcenter.netlify.com",
@@ -97,9 +96,15 @@
     }
   },
   {
+    "title": "OVHCloud US",
+    "category": ["code", "website"],
+    "year": "2021",
+    "featured": false,
+    "url": "https://us.ovhcloud.com/contact-sales/"
+  },
+  {
     "title": "The Boss",
     "category": ["code", "website"],
-    "client": "",
     "year": "2020",
     "featured": false,
     "url": "https://brave-morse-2885af.netlify.app/"
@@ -107,7 +112,7 @@
   {
     "title": "Washington Burger",
     "category": ["code"],
-    "client": "",
+
     "year": "2020",
     "url": "https://github.com/evanszymkowicz/react-laravel",
     "featured": false
@@ -122,11 +127,17 @@
   },{
     "title": "Watch ESPN+",
     "category": ["marketing"],
-    "client": "",
-    "url":"https://ews-watch-espnplus-marketings.herokuapp.com/",
+    "url":"https://ews-watch-espnplus-emails.herokuapp.com/",
     "year": "2019",
     "featured": false
-  }, {
+  },
+  {
+    "title": "What's New This August at Glen's",
+    "category": ["marketing"],
+    "url":"https://sheltered-refuge-25602.herokuapp.com/",
+    "year": "2019",
+    "featured": false
+  },  {
     "title": "WordPress - Theme",
     "category": ["code", "website"],
     "client": "",
@@ -144,14 +155,13 @@
   {
     "title": "Heroku Newsletter",
     "category": ["marketing"],
-    "client": "",
+  
     "url": "https://ews-heroku-marketing.herokuapp.com",
     "year": "2018",
     "featured": false
   },{
-    "title": "Local Business - Template",
+    "title": "Small Business Template",
     "category": ["code"],
-    "client": "",
     "url": "https://github.com/evanszymkowicz/jackrose-site",
     "year": "2018",
     "featured": false
@@ -159,7 +169,6 @@
   {
     "title": "Visit Banff",
     "category": ["website", "code"],
-    "client": "",
     "url": "https://github.com/evanszymkowicz/visit-banff",
     "year": "2017",
     "featured": false
