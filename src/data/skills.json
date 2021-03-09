@@ -1,32 +1,24 @@
 [{
-    "name": "JavaScript",
+    "name": "JavaScript (Live)",
     "url": "https://interactive-strategies.netlify.com"
   },
   {
+    "name": "TypeScript",
+    "url": "https://github.com/evanszymkowicz/sparks"
+  },
+  {
     "name": "React",
-    "url": "https://dc-design.netlify.com"
+    "url": "https://github.com/evanszymkowicz/interior-design-firm"
   },
   {
     "name": "HTML/CSS",
-    "url": "https://dc-design.netlify.com"
+    "url": "https://github.com/evanszymkowicz/augnewsletter-email"
   },
   {
     "name": "PHP",
-    "url": "https://dc-design.netlify.com"
-  },
-  {
-    "name": "SCSS",
-    "url": "https://dc-design.netlify.com"
+    "url": "https://github.com/evanszymkowicz/react-laravel"
   }, {
-    "name": "Node",
-    "url": "https://dc-design.netlify.com"
-  },
-  {
-    "name": "HTTPS",
-    "url": "https://dc-design.netlify.com"
-  },
-  {
-    "name": "SQL",
-    "url": "https://dc-design.netlify.com"
+    "name": "SCSS",
+    "url": "https://github.com/evanszymkowicz/agency-site"
   }
 ]
