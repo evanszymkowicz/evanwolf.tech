@@ -112,19 +112,18 @@
   {
     "title": "Washington Burger",
     "category": ["code"],
-
     "year": "2020",
     "url": "https://github.com/evanszymkowicz/react-laravel",
     "featured": false
   },
   {
-    "title": "Docker - AWS",
-    "category": ["code"],
-    "client": "",
-    "year": "2020",
-    "url": "https://github.com/evanszymkowicz/microservices-react",
+    "title": "ALLRISE DC",
+    "category": ["website"],
+    "year": "2019",
+    "url": "https://www.allrisedc.org/",
     "featured": false
-  },{
+  },
+  {
     "title": "Watch ESPN+",
     "category": ["marketing"],
     "url":"https://ews-watch-espnplus-emails.herokuapp.com/",
