@@ -22,7 +22,7 @@ export default ({ data }) => {
             <>            
               <p>I focus on building, launching and fixing websites.{' '}</p>
               <p>Yes, I am currently looking for new work.{' '}</p>
-              <p> <a href="https://github.com/evanszymkowicz" target="_blank" rel="noopener noreferrer">See what I am working on</a> <a href = "https://evan.szymkowicz@evanwolf.tech" target = "_blank" rel = "noopener noreferrer" > or contact me to learn more</a>.
+              <p> <a href="https://github.com/evanszymkowicz" target="_blank" rel="noopener noreferrer">See what I am working on </a>or contact me to learn more.
             </p>
           </>
         )}
