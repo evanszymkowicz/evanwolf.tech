@@ -20,5 +20,14 @@
   }, {
     "name": "SCSS",
     "url": "https://github.com/evanszymkowicz/agency-site"
+  }, {
+    "name": "Contentful",
+    "url": "https://github.com/evanszymkowicz/beach-house"
+  }, {
+    "name": "Testing (Mocha)",
+    "url": "https://github.com/evanszymkowicz/movies-testing"
+  }, {
+    "name": "Testing (Custom)",
+    "url": "https://github.com/evanszymkowicz/testing-framework"
   }
 ]
