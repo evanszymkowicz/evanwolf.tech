@@ -1,6 +1,6 @@
 [{
   "title": "Sparks Group",
-  "category": ["website", "code"],
+  "category": ["website"],
   "year": "2020",
   "featured": true,
   "url": "https://sparks-by-evan.netlify.app",
@@ -48,7 +48,7 @@
     }
   }, {
     "title": "Interactive Strategies",
-    "category": ["website", "code"],
+    "category": ["website"],
 
     "year": "2019",
     "url": "https://interactive-strategies.netlify.app/",
@@ -72,7 +72,7 @@
     }
   }, {
     "title": "Washington Design Center",
-    "category": ["website", "code"],
+    "category": ["website"],
 
     "year": "2019",
     "featured": true,
@@ -97,14 +97,14 @@
   },
   {
     "title": "OVHCloud US",
-    "category": ["code", "website"],
+    "category": ["website"],
     "year": "2021",
     "featured": false,
     "url": "https://us.ovhcloud.com/contact-sales/"
   },
   {
     "title": "The Boss",
-    "category": ["code", "website"],
+    "category": ["website"],
     "year": "2020",
     "featured": false,
     "url": "https://brave-morse-2885af.netlify.app/"
@@ -138,7 +138,7 @@
     "featured": false
   },  {
     "title": "WordPress - Theme",
-    "category": ["code", "website"],
+    "category": ["code"],
     "client": "",
     "url": "https://github.com/evanszymkowicz/photo-site",
     "year": "2019",
@@ -167,7 +167,7 @@
   },
   {
     "title": "Visit Banff",
-    "category": ["website", "code"],
+    "category": ["code"],
     "url": "https://github.com/evanszymkowicz/visit-banff",
     "year": "2017",
     "featured": false

@@ -11,9 +11,9 @@ const ProjectsListSection = ({
     <header>
       <ProjectsTitle>Other projects</ProjectsTitle>
       <ButtonsWrapper>
-        <FilterButton active={category === 'website'} onClick={() => setCategory('website')}>website</FilterButton>
+        <FilterButton active={category === 'website'} onClick={() => setCategory('website')}>web</FilterButton>
         <FilterButton active={category === 'code'} onClick={() => setCategory('code')}>code</FilterButton>
-        <FilterButton active={category === 'code'} onClick={() => setCategory('marketing')}>marketing</FilterButton>
+        <FilterButton active={category === 'marketing'} onClick={() => setCategory('marketing')}>marketing</FilterButton>
         {category && <FilterButton onClick={() => setCategory(null)}>all</FilterButton>}
       </ButtonsWrapper>
     </header>
