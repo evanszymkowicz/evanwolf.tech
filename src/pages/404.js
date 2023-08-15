@@ -1,49 +1,59 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import styled from 'styled-components'
+import Link from 'gatsby-link'
+import Layout from '../components/layout'
+import { fonts, colors, media } from '../style/constants'
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+const Title = styled.h1`
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+`
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+const Subtitle = styled.h1`
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: ${fonts.mono};
+  color: ${colors.grey};
+  margin: 1rem 0;
+  
+  span {
+    color: ${colors.darkYellow};
+  }
+`
 
-const NotFoundPage = () => {
-  return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+const Wrapper = styled.section`
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  ${media.sm`
+    top: 45%;
+  `}
+`
 
-export default NotFoundPage
+const BackToHome = styled(Link)`
+  color: ${colors.darkYellow};
+  font-family: ${fonts.mono};
+  font-size: .9rem;
+  border-bottom: 1px dotted ${colors.darkRed};
+  padding: 0 0 .1rem;
+  display: inline-block;
+  
+  &:hover {
+    color: ${colors.darkYellow};
+  }
+`
 
-export const Head = () => <title>Not found</title>
+export default ({ location }) =>
+  <Layout location={location}>
+    <Wrapper>
+      <header>
+        <Title>Sorry</Title>
+        <Subtitle>You have reached a dead end</Subtitle>
+        <BackToHome to='/'>Return to the homepage</BackToHome>
+      </header>
+    </Wrapper>
+  </Layout>

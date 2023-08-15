@@ -1,12 +1,15 @@
 {
   "name": "evanwolf.tech",
-  "version": "1.0.0",
+  "version": "5.5.0",
   "private": true,
-  "description": "evanwolf.tech",
-  "author": "Evan Szymkowicz",
+  "description": "Evan Szymkowicz's Developer Website",
+  "author": "Evan Szymkowicz <evan.szymkowicz@evanwolf.tech>",
   "keywords": [
-    "gatsby"
-  ],
+    "react",
+    "gatsby",
+    "portfolio"
+],
+  "repository": "https://github.com/evanszymkowicz/evanwolf.tech.git",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
